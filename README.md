@@ -13,5 +13,6 @@
 
     npm i
     grunt run
+    + запустить локальный сервер с index.html
 
 ###### Made by Dmitry Ovchinnikov
