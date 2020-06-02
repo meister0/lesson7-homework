@@ -1,6 +1,6 @@
 # Lesson 7 - Homework
 
-Два небольших пака настроек для Gulp/Grunt.
+Два небольших проекта с целью изучения Gulp/Grunt.
 
 # How to:
 
