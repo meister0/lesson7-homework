@@ -2,14 +2,14 @@
 
 Два небольших проекта с целью изучения Gulp/Grunt.
 
-# How to:
+## How to:
 
-## Gulp
+### Gulp
 
     npm i
     gulp
 
-## Grunt
+### Grunt
 
     npm i
     grunt run
