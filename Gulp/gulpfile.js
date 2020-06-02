@@ -4,7 +4,7 @@ const sass = require('gulp-sass');
 const autoprefixer = require('gulp-autoprefixer');
 const concatCSS = require('gulp-concat-css');
 
-// Комиляция sass в css, browser-sync, авто-префиксы + конкатенация sass(css) файлов
+// Компиляция sass в css, browser-sync, авто-префиксы + конкатенация sass(css) файлов
 function style(done) {
 	gulp
 		.src('src/sass/*.sass')
