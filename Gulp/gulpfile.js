@@ -16,7 +16,7 @@ function style(done) {
 		.on('error', console.error.bind(console))
 		.pipe(autoprefixer({ cascade: false }))
 		.pipe(concatCSS('style.css'))
-		.pipe(gulp.dest('public/css'))
+		.pipe(gulp.dest('src/css'))
 		.pipe(browserSync.stream());
 	done();
 }

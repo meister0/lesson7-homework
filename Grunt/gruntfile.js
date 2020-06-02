@@ -12,7 +12,7 @@ module.exports = function (grunt) {
 						expand: true,
 						cwd: 'src/scss',
 						src: ['**/*.scss'],
-						dest: 'src/css',
+						dest: 'src/trash/css',
 						ext: '.css',
 					},
 				],
@@ -31,13 +31,13 @@ module.exports = function (grunt) {
 				separator: '',
 			},
 			dist: {
-				src: ['src/css/*.css'],
-				dest: 'public/css/style.css',
+				src: ['src/trash/css/*.css'],
+				dest: 'src/css/style.css',
 			},
 		},
 
 		clean: {
-			css: ['src/css'],
+			css: ['src/trash'],
 		},
 	});
 	grunt.loadNpmTasks('grunt-contrib-sass');
